@@ -6,4 +6,6 @@ let isHappy = true;
 let userIntro = " Hi my name is " + firstname + " " + lastname;
 console.log(userIntro);
 
-let prompt = "Please enter your name";
+const userInput = prompt("Please enter your name");
+
+console.log(userInput);
