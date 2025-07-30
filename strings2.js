@@ -1,7 +1,7 @@
 let myname = "My name is Anurag";
-console.log(myname.length);
-console.log(myname.toUpperCase());
-console.log(myname.toLowerCase());
+console.log(myname.length); // gives the length of string
+console.log(myname.toUpperCase()); // changes the text of string in capital letters
+console.log(myname.toLowerCase()); // changes the text of string in small letters
 
 let anothermessage = "        Hi I am Nilesh.        ";
 console.log(anothermessage.trim());
@@ -29,3 +29,7 @@ console.log(part);
 
 let str = "Apple, Banana, Kiwi";
 console.log(str.substring(7, 13)); // The substring() method extract a part of a string and returns the extracted parts in a new string.
+
+let text4 = "     Hello World!     ";
+let text5 = text4.trimStart();
+console.log(text5);
